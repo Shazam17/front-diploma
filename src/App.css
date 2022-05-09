@@ -36,3 +36,190 @@
     transform: rotate(360deg);
   }
 }
+
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+.wrapper {
+    height: 600px;
+    width: 600px;
+    box-shadow: 1px 1px 59px 18px rgba(34, 60, 80, 0.3);
+    border-radius: 25px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parentBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.input {
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 59px 18px rgba(34, 60, 80, 0.125);
+    background-color: #e0ece0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.button {
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e0c6c7;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.chat-list {
+    background-color: #7c567c;
+    height: 100%;
+    padding: 10px;
+}
+
+.settings-column {
+    background-color: #7c567c;
+    height: 100%;
+    padding: 10px;
+    width: 300px;
+}
+
+.panel-wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+.message-container {
+    overflow-y: auto;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.composer {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.message-input {
+    background-color: #dcd3d3;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    height: 35px;
+    padding: 5px 5px 5px 20px;
+    font-size: 15px;
+}
+
+.send-button {
+    width: 30px;
+    height: 30px;
+    /*background-color: grey;*/
+    /*margin: 0 20px 0 20px;*/
+    /*border-radius: 30px;*/
+}
+
+.chat-header {padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+.chat-item {
+    width: 200px;
+    height: 50px;
+    background-color: #d7bcbc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.chat-name {
+    font-weight: bold;
+}
+
+.chat-last-message {
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.message-bubble {
+    background-color: #7478e0;
+    padding: 12px;
+    border-radius: 18px;
+    margin: 15px;
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    word-wrap: break-word;
+    align-self: flex-start;
+}
+.message-text {
+    word-wrap: break-word;
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+}
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+.settings-channel {
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 59px 18px rgba(34, 60, 80, 0.125);
+    background-color: #d4e1d4;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
